@@ -1,0 +1,36 @@
+# CN robots.txt
+User-agent: *
+Disallow: /.*
+Disallow: /vyhledavani/
+Disallow: /tema/
+
+User-agent: CCBot
+Disallow: /
+
+# For new training only
+User-agent: GPTBot
+Disallow: /
+
+# Not for training, only for user requests
+User-agent: ChatGPT-User
+Disallow: /
+
+# Marker for disabling Bard and Vertex AI
+User-agent: Google-Extended
+Disallow: /
+
+# Speech synthesis
+User-agent: FacebookBot
+Disallow: /
+
+# Multi-purpose, commercial uses; including LLMs
+User-agent: Omgilibot
+Disallow: /
+
+#suggested by SPIR
+User-agent: MachineLearning
+Disallow: /
+
+Sitemap: https://www.ceskenoviny.cz/sitemap.php
+Sitemap: https://www.ceskenoviny.cz/sitemap_zpravy.php
+Sitemap: https://www.ceskenoviny.cz/sitemap_zpravy_pr.php
