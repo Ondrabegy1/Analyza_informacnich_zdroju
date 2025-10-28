@@ -43,14 +43,11 @@ url = "https://i3.cn.cz/15/1760703434_P2025101705104.jpg"
 headers = {'user-agent': 'tutorialBot'}
 r = requests.get(url, headers = headers)
 
-import PIL
 from PIL import Image
 from io import BytesIO
 i = Image.open(BytesIO(r.content))
 
 r.content
-
-display(i)
 
 i.save("Úlohy/Stahování_stránek/babis.jpg")
 
