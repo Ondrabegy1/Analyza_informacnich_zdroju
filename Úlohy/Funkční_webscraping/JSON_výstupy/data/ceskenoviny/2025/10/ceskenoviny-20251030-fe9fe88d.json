@@ -1,0 +1,15 @@
+{
+    "title": "Systém potřebný pro fungování eDokladů je dostupný",
+    "url": "https://www.ceskenoviny.cz/zpravy/system-potrebny-pro-fungovani-edokladu-je-dostupny/2740469",
+    "date": "30.10.2025, 07:50",
+    "author": "ČTK",
+    "source": "ceskenoviny.cz",
+    "content_snippet": "Praha - Národní identitní autorita (NIA), která slouží k ověřování identity občanů například pro aplikaci eDoklady či Portál dopravy, opět funguje. Problémy, které měla od středečního odpoledne, se podařilo v noci vyřešit. ČTK to dnes ráno řekl mluvčí Digitální informační agentury (DIA) Jakub Palata. Problémy trvaly asi 12 hodin, částečně byly způsobené výpadkem služby Azure americké firmy Microsoft.",
+    "full_content": "Praha - Národní identitní autorita (NIA), která slouží k ověřování identity občanů například pro aplikaci eDoklady či Portál dopravy, opět funguje. Problémy, které měla od středečního odpoledne, se podařilo v noci vyřešit. ČTK to dnes ráno řekl mluvčí Digitální informační agentury (DIA) Jakub Palata. Problémy trvaly asi 12 hodin, částečně byly způsobené výpadkem služby Azure americké firmy Microsoft.Reklama\"Kolem 01:00 jsme systém otestovali. Všechno fungovalo, problémy by měly být vyřešeny,\" řekl Palata.Systém měl ve středu výpadek zhruba od 13:00. Podle Palaty se dařilo některé části průběžně obnovovat, zhruba od 18:30 byly ale problémy ovlivněny výpadkem cloudové služby Microsoft Azure.Kvůli problémům s NIA a službou Microsoft Azure se lidé ve středu nemohli například přihlásit do Portálu dopravy, který umožňuje občanům vyřizovat on-line služby v agendách řidičů, vozidel, plavby či letectví.\"Ještě analyzujeme všechna data, ale vypadá to, že výpadek Microsoft Azure přišel až v průběhu našeho výpadku. Ten byl zapříčiněn chybou při komunikaci dvou informačních systémů. Tuto komunikaci zprostředkovává NIA a tato chyba ji ochromila,\" doplnil Palata. Chyba byla podle něj zapříčiněna nedávnou úpravou, která se hned neprojevila. Tato úprava podle něj nesouvisela s nápravou systému po parlamentních volbách. \"Do budoucna bychom se tedy tomuto problému díky těmto zkušenostem již měli být schopni vyvarovat,\" dodal.Identifikační autorita NIA měla problémy i během říjnových voleb do Poslanecké sněmovny, kdy kvůli vysokému počtu požadavků nešlo aktualizovat eDoklady a prokazovat se jimi ve volebních místnostech. Tehdejší ředitel DIA Martin Mesršmíd kvůli výpadku rezignoval, minulý týden ho nahradil jeho dosavadní zástupce Petr Kuchař.NIA je systém sloužící k bezpečnému prokazování totožnosti občanů při on-line službách státní správy. Takzvaná NIA ID umožňuje dvoufaktorové přihlašování (uživatelské jméno, heslo a jednorázový SMS kód) k portálům, jako jsou eDoklady, portál občana nebo datová schránka.ČRinternetsprávaFLEŠAutor:ČTKFacebookTwitterVytisknoutReklamaReklama",
+    "tags": [
+        "ČR",
+        "internet",
+        "správa",
+        "FLEŠ"
+    ]
+}

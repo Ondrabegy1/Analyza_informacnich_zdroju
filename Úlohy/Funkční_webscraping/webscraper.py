@@ -55,7 +55,7 @@ def parse_article(url: str):
 
     snippet = extract_text(soup.select_one("p.big"))
 
-    content_block = soup.select_one("p.big") #Potřeba nahradit za celý článek, nikoliv perex
+    content_block = soup.select_one("#articlebody") #Potřeba nahradit za celý článek, nikoliv perex
     full_content = extract_text(content_block)
 
     tags_block = soup.select(".tags a")
