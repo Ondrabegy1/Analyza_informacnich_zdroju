@@ -40,7 +40,7 @@ def fetch_article_links():
     return links
 
 # Regulární výrazy pro detekci a zachycení
-date_pattern = re.compile(r'\b([0-3]?\d\.(?:[0-1]?\d)\.\d{4})\b')
+date_pattern = re.compile(r'\b([0-3]?\d\.(?:[0-1]?\d)\.\d{4})\b(?!\s*,\s*\d{1,2}:\d{2})')
 money_pattern = re.compile(r'\b(\d{1,3}(?:[ \u00A0]\d{3})*(?:,\d{2})?)\s*Kč\b')
 temperature_pattern = re.compile(r'\b([+-]?\d+(?:,\d+)?)\s*°?\s*C\b', re.IGNORECASE)
 
@@ -76,23 +76,23 @@ def parse_article(url: str):
     m_date = date_pattern.search(content)
     if m_date:
         val = m_date.group(1)
-        tag = f"datum_nalezeno: {val}"
+        tag = f"datum_nalezeno:{val}"
         if tag not in tags:
             tags.append(tag)
 
     # Měna
     m_money = money_pattern.search(content)
     if m_money:
-        val = m_money.group(1) + " Kč"
-        tag = f"měna_nalezena: {val}"
+        val = m_money.group(1) + " Kč"
+        tag = f"měna_nalezena:{val}"
         if tag not in tags:
             tags.append(tag)
 
     # Teplota
     m_temp = temperature_pattern.search(content)
     if m_temp:
-        val = m_temp.group(1) + " °C"
-        tag = f"teplota_nalezena: {val}"
+        val = m_temp.group(1) + " °C"
+        tag = f"teplota_nalezena:{val}"
         if tag not in tags:
             tags.append(tag)
 
@@ -106,6 +106,7 @@ def parse_article(url: str):
         "full_content": full_content,
         "tags": tags
     }
+
 
 def save_article(article: dict):
     dt = datetime.now()
